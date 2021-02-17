@@ -138,5 +138,3 @@
       .join();
       console.log(result);
   }
-
-  
