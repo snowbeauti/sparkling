@@ -56,4 +56,3 @@ const obj = JSON.parse(json, (key, value) => {
 console.log(obj);
 console.log(rabbit.birthDate.getDate());
 console.log(obj.birthDate.getDate());
-

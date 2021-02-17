@@ -141,5 +141,3 @@ const mixed = Object.assign({}, fruit1, fruit2); //뒤의값으로 덮어짐
 console.log(mixed.color);
 console.log(mixed.size);
 
-
-console.log();
