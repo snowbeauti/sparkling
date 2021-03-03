@@ -7,6 +7,7 @@
 
 //1.Ojbect to JSON
 //stringify(obj)
+
 let json = JSON.stringify(true);
 console.log(json);
 
@@ -45,6 +46,9 @@ console.log(json);
 //parse(json)
 console.clear();
 json = JSON.stringify(rabbit);
+
+console.log('---------')
+console.log(JSON.parse(json));
 
 const obj = JSON.parse(json, (key, value) => {
     console.log(`key: ${key}, value: ${value}`);

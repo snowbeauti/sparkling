@@ -1,0 +1,281 @@
+* {
+  border: 1px black solid;
+}
+
+/*****공통***
+body,
+div,
+ul,
+li,
+dl,
+dt,
+ol,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+fieldset,
+legend,
+p,
+select,
+table,
+th,
+td,
+tr,
+textarea,
+button,
+form {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font: 12px "맑은 고딕", 돋움, 굴림;
+}
+ul,
+ol {
+  list-style-type: none;
+}
+a:link {
+  text-decoration: none;
+  color: #000000;
+}
+a:visited {
+  text-decoration: none;
+  color: #000000;
+}
+a:active {
+  text-decoration: none;
+  color: #000000;
+}
+a:hover {
+  text-decoration: none;
+  color: #000000;
+}
+*********************************/
+
+/* 검색창 */
+#gnb .gnb_search {
+  position: absolute;
+  right: 108px;
+  top: 10px;
+  width: 242px;
+}
+#gnb .gnb_search .inp_search {
+  width: 242px;
+  height: 36px;
+  padding: 0 60px 0 14px;
+  border: 1px solid #f7f7f6;
+  border-radius: 18px;
+  background-color: #f7f7f7;
+  font-family: "Noto Sans";
+  font-weight: 400;
+  font-size: 12px;
+  color: #666;
+  line-height: 16px;
+  outline: none;
+}
+#gnb .gnb_search .inp_search.focus {
+  background-color: #fff;
+  color: #333;
+}
+#gnb .gnb_search .btn_search {
+  position: absolute;
+  right: 5px;
+  top: 3px;
+  width: 30px;
+  height: 30px;
+}
+/* 장바구니 */
+#gnb .cart_count {
+  position: absolute;
+  right: -5px;
+  top: 10px;
+}
+#gnb .cart_count .inner_cartcount {
+  text-align: center;
+  font-weight: 400;
+}
+#gnb .cart_count .btn_cart {
+  display: block;
+  width: 36px;
+  height: 36px;
+  background: url(https://res.kurly.com/pc/service/common/2011/ico_cart.svg)
+    no-repeat 50% 50%;
+}
+#gnb .cart_count .btn_cart:hover {
+  background: url(https://res.kurly.com/pc/service/common/2011/ico_cart_on.svg?v=1)
+    no-repeat 50% 50%;
+}
+#gnb .cart_count .num {
+  display: none;
+  position: absolute;
+  left: 19px;
+  top: -1px;
+  min-width: 20px;
+  height: 20px;
+  padding: 0 5px;
+  border: 2px solid #fff;
+  border-radius: 10px;
+  background-color: #5f0080;
+  font-size: 9px;
+  color: #fff;
+  line-height: 15px;
+  text-align: center;
+  white-space: nowrap;
+}
+#gnb .cart_count img {
+  display: block;
+  width: 36px;
+  height: 36px;
+  margin: 0 auto;
+}
+#gnb .cart_count .msg_cart {
+  display: none;
+  position: absolute;
+  right: -7px;
+  top: 61px;
+  width: 348px;
+  border: 1px solid #ddd;
+  background-color: #fff; /* opacity:0; */
+}
+#gnb .cart_count .inner_msgcart {
+  display: block;
+  overflow: hidden;
+  padding: 20px 0 20px 20px;
+}
+#gnb .cart_count .msg_cart .thumb {
+  float: left;
+  width: 46px;
+  height: 60px;
+}
+#gnb .cart_count .msg_cart .desc {
+  float: left;
+  width: 260px;
+  padding: 8px 0 0 20px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+}
+#gnb .cart_count .msg_cart .desc.add {
+  padding-top: 0;
+  margin-top: -5px;
+}
+#gnb .cart_count .msg_cart .tit {
+  display: block;
+  overflow: hidden;
+  width: 100%;
+  color: #999;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+#gnb .cart_count .msg_cart .name {
+  overflow: hidden;
+  float: left;
+  max-width: 178px;
+  text-overflow: ellipsis;
+}
+#gnb .cart_count .msg_cart .txt {
+  display: block;
+  padding-top: 3px;
+  color: #333;
+}
+#gnb .cart_count .msg_cart .point {
+  position: absolute;
+  right: 13px;
+  top: -14px;
+  width: 20px;
+  height: 14px;
+  background: url(https://res.kurly.com/pc/ico/1903/ico_layer_point.png)
+    no-repeat 0 0;
+}
+#gnb .cart_count .msg_cart .repeat {
+  display: none;
+}
+#gnb .cart_count .msg_cart .add .repeat {
+  display: block;
+}
+/* GNB메인 */
+.gnb_main {
+  overflow: hidden;
+  width: 1050px;
+  margin: 0 auto;
+}
+.gnb_main .gnb {
+  float: left;
+  width: 100%;
+}
+.gnb_main .gnb li {
+  float: left;
+}
+.gnb_main .gnb .lst {
+  background: none;
+}
+.gnb_main .gnb a {
+  overflow: hidden;
+  float: left;
+  width: 124px;
+  height: 55px;
+  padding: 16px 0 0;
+  font-size: 16px;
+  color: #333;
+  line-height: 20px;
+  text-align: center;
+}
+.gnb_main .gnb a .txt {
+  font-weight: 700;
+}
+.gnb_main .gnb a:hover,
+.gnb_main .gnb a.on {
+  font-weight: 700;
+  color: #5f0080;
+}
+.gnb_main .gnb a:hover .txt {
+  border-bottom: 1px solid #5f0080;
+}
+.gnb_main .menu1 a {
+  width: 168px;
+}
+.gnb_main .menu1 .ico {
+  float: left;
+  width: 16px;
+  height: 14px;
+  margin: 5px 14px 0 0;
+  background: url(https://res.kurly.com/pc/service/common/1908/ico_gnb_all_off.png)
+    no-repeat;
+}
+.gnb_main .menu1 a.on .ico,
+.gnb_main .menu1 a:hover .ico {
+  background: url(https://res.kurly.com/pc/service/common/1908/ico_gnb_all.png)
+    no-repeat 0 0;
+}
+.gnb_main .menu1 a.on .txt,
+.gnb_main .menu1 a:hover .txt,
+.gnb_main .menu1 .txt {
+  float: left;
+  font-weight: 700;
+  border-bottom: 0;
+}
+.gnb_main .menu3 a {
+  width: 116px;
+}
+.gnb_main .lst a {
+  width: 116px;
+}
+
+.btn_location {
+  overflow: hidden;
+  position: absolute;
+  right: 51px;
+  top: 10px;
+  width: 36px;
+  height: 36px;
+  border: 0 none;
+  background: url(https://res.kurly.com/pc/ico/2008/ico_delivery_setting_done.svg)
+    no-repeat 50% 50%;
+  font-size: 0;
+  text-indent: -9999px;
+}

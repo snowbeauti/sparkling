@@ -5,10 +5,10 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "type": "pwa-chrome",
+            "type": "chrome",
             "request": "launch",
-            "name": "Open index.html",
-            "file": "c:\\javaStudy\\workspace\\visual code\\index.html"
+            "name": "Launch Chrome against localhost",
+            "file": "${workspaceFolder}"
         }
     ]
 }
