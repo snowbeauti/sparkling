@@ -1,0 +1,208 @@
+@charset "UTF-8";
+
+/***********공통*****************/
+body,
+div,
+ul,
+li,
+dl,
+dt,
+ol,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+fieldset,
+legend,
+p,
+select,
+table,
+th,
+td,
+tr,
+textarea,
+button,
+form {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font: 12px "맑은 고딕", 돋움, 굴림;
+}
+ul,
+ol {
+  list-style-type: none;
+}
+a:link {
+  text-decoration: none;
+  color: #000000;
+}
+a:visited {
+  text-decoration: none;
+  color: #000000;
+}
+a:active {
+  text-decoration: none;
+  color: #000000;
+}
+a:hover {
+  text-decoration: none;
+  color: #000000;
+}
+
+/****************공통******************/
+
+#wrap {
+  max-width: 100%;
+  overflow: hidden;
+}
+#wrap #container {
+  width: 1050px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+#wrap #container #header {
+  width: 1050px;
+  overflow: hidden;
+  margin-top: 20px;
+}
+#wrap #container #header li {
+  float: left;
+}
+#wrap #container #header a {
+  overflow: hidden;
+  float: left;
+  height: 55px;
+  font-size: 16px;
+  color: #333;
+  line-height: 20px;
+  text-align: center;
+  cursor: pointer;
+}
+
+/*로고*/
+#wrap #container #header .menu1 {
+  width: 140px;
+  margin-right: 220px;
+}
+#wrap #container #header .menu1 a {
+  width: 140px;
+}
+#wrap #container #header .menu1 img {
+  width: 140px;
+}
+
+/*스파링매치*/
+
+#wrap #container #header .menu2 {
+  width: 150px;
+  margin-right: 30px;
+}
+#wrap #container #header .menu2 a {
+  width: 150px;
+  font-weight: 700;
+}
+#wrap #container #header .menu2 a:hover {
+  color: #e60012;
+}
+#wrap #container #header .menu2 a:active {
+  color: #e60012;
+}
+#wrap #container #header .menu2 span {
+  width: 150px;
+  height: 80px;
+  display: block;
+  margin-top: 30px;
+  text-align: center;
+}
+
+/*스토어*/
+#wrap #container #header .menu3 {
+  width: 150px;
+  margin-right: 165px;
+}
+#wrap #container #header .menu3 a {
+  width: 150px;
+  font-weight: 700;
+}
+#wrap #container #header .menu3 a:hover {
+  color: #e60012;
+}
+#wrap #container #header .menu3 a:active {
+  color: #e60012;
+}
+#wrap #container #header .menu3 span {
+  width: 150px;
+  height: 80px;
+  display: block;
+  margin-top: 30px;
+  text-align: center;
+}
+
+/*마이페이지*/
+#wrap #container #header .menu4 {
+  width: 60px;
+  margin-top: 20px;
+}
+#wrap #container #header .menu4 img {
+  width: 30px;
+}
+/*알람*/
+#wrap #container #header .menu5 {
+  width: 60px;
+  margin-top: 20px;
+}
+#wrap #container #header .menu5 img {
+  width: 30px;
+}
+/*장바구니*/
+#wrap #container #header .menu6 {
+  width: 60px;
+  margin-top: 20px;
+}
+#wrap #container #header .menu6 img {
+  width: 30px;
+}
+
+/*마이페이지 사이드바*/
+.middle {
+  display: flex;
+  flex-direction: row;
+  margin-top: 80px;
+}
+.side_menu {
+  overflow: hidden;
+  width: 230px;
+  font-size: 14px;
+}
+.side_menu ul {
+  margin-bottom: 50px;
+}
+.side_menu #side_menu_booking li,
+.side_menu #side_menu_delivery li,
+.side_menu #side_menu_user li {
+  border-top: 1px solid #f2f2f2;
+  border-right: 1px solid #f2f2f2;
+  border-left: 1px solid #f2f2f2;
+  width: 180px;
+  height: 50px;
+  cursor: pointer;
+}
+.side_menu ul .side_menu_last {
+  border-bottom: 1px solid #f2f2f2;
+}
+.side_menu li span {
+  display: inline-block;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+#side_menu_mypage {
+  font-size: 25px;
+  margin-bottom: 25px;
+  font-weight: bold;
+}
+/*마이페이지 내용*/
