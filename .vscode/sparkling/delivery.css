@@ -387,7 +387,7 @@ a:hover {
   }
 
 /*배송정보*/
- .delevery_list > div {
+ .deleverymanage_list > div {
     width: 817px;
     height: 225px;
     margin: 25px 0px 30px 0px;
@@ -395,33 +395,33 @@ a:hover {
   }
 
 
-  .delivery_info .delevery_list .delevery_product_content img {
+  .delivery_info .deleverymanage_list .delevery_product_content img {
     width: 200px;
     height: 200px;
     margin: 16px 25px 0px 20px;
   }
   
-  .delivery_info .delevery_list .delevery_product_content {
+  .delivery_info .deleverymanage_list .delevery_product_content {
     display: flex;
     flex-direction: row;
     overflow: hidden;
     font-size: 14px;
   }
   
-  .delivery_info .delevery_list .delevery_product_content .delevery_product_detail_title {
+  .delivery_info .deleverymanage_list .delevery_product_content .delevery_product_detail_title {
     width: 140px;
     margin: 40px 15px 16px 0px;
   }
-  .delivery_info .delevery_list .delevery_product_content .delevery_product_detail_title div {
+  .delivery_info .delevedeleverymanage_listry_list .delevery_product_content .delevery_product_detail_title div {
     margin-bottom: 8px;
   }
-  .delivery_info .delevery_list .delevery_product_content .delevery_product_detail {
+  .delivery_info .deleverymanage_list .delevery_product_content .delevery_product_detail {
     margin-top: 40px;
     width: 370px;
     height: 140px;
     font-weight: 550;
   }
-  .delivery_info .delevery_list .delevery_product_content .delevery_product_detail div {
+  .delivery_info .deleverymanage_list .delevery_product_content .delevery_product_detail div {
     margin-bottom: 8px;
   }
 
